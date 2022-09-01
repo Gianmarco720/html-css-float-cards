@@ -4,6 +4,11 @@
     --title: #E53170;
 }
 
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -24,17 +29,37 @@
 h1 {
     text-align: center;
     color: var(--title);
+    font-family: 'Fredoka One', cursive;
 }
 
 header>p {
     text-align: center;
+    padding: 5%;
 }
 
 img {
-    max-width: 100%;
-    margin: auto;
+    width: 80px;
+    float: left;
+}
+
+.name_style{
+    color: white;
+    font-size: 70%;
+}
+
+.job_style {
+    color: white;
+    font-size: 10px;
+}
+
+.email_style {
+    color: var(--email);
+    font-size: 10px;
 }
 
 .col_3 {
     float: left;
+    width: calc(100% / 3);
+    margin-right: 0px;
+    background-color: var(--back);
 }
