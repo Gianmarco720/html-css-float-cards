@@ -61,8 +61,11 @@ img {
 
 .col_3 {
     float: left;
-    width: calc(100% / 3);
-    margin-right: 0px;
+    width: calc((100% / 3) - 20px);
+    margin: 20px 10px 20px 10px;
     background-color: var(--back);
-    margin-top: 30px;
+}
+
+.row {
+    float: left;
 }
