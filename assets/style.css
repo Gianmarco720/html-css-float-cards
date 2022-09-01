@@ -64,4 +64,5 @@ img {
     width: calc(100% / 3);
     margin-right: 0px;
     background-color: var(--back);
+    margin-top: 30px;
 }
