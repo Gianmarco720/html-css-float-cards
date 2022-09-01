@@ -1,3 +1,9 @@
+:root {
+    --email: #3FAFD9;
+    --back: #0F0E17;
+    --title: #E53170;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -10,7 +16,25 @@
     clear: both;
 }
 
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: var(--title);
+}
+
+header>p {
+    text-align: center;
+}
+
 img {
     max-width: 100%;
     margin: auto;
+}
+
+.col_3 {
+    float: left;
 }
