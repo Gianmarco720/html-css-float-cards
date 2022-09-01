@@ -42,9 +42,11 @@ img {
     float: left;
 }
 
+/* info */
 .name_style{
     color: white;
     font-size: 70%;
+    font-family: 'Fredoka One', cursive;
     padding-bottom: 10px;
 }
 
