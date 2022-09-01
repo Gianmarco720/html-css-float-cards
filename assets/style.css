@@ -65,7 +65,3 @@ img {
     margin: 20px 10px 20px 10px;
     background-color: var(--back);
 }
-
-.row {
-    float: left;
-}
