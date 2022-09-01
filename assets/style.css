@@ -45,11 +45,13 @@ img {
 .name_style{
     color: white;
     font-size: 70%;
+    padding-bottom: 10px;
 }
 
 .job_style {
     color: white;
     font-size: 10px;
+    padding-bottom: 10px;
 }
 
 .email_style {
