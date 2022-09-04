@@ -1,14 +1,4 @@
-:root {
-    --email: #3FAFD9;
-    --back: #0F0E17;
-    --title: #E53170;
-}
-
-
-body{
-    font-family: 'Poppins', sans-serif;
-}
-
+/* #region common rules */
 * {
     padding: 0;
     margin: 0;
@@ -20,6 +10,20 @@ body{
     display: table;
     clear: both;
 }
+/* #endregion common rules */
+
+:root {
+    --email: #3FAFD9;
+    --back: #0F0E17;
+    --title: #E53170;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
 
 .container {
     width: 70%;
@@ -37,12 +41,13 @@ header>p {
     padding: 5%;
 }
 
+/* #region cards */
 img {
     width: 80px;
     float: left;
+    border-radius: 10px 0 0 10px ;
 }
 
-/* info */
 .name_style{
     color: white;
     font-size: 70%;
@@ -66,4 +71,7 @@ img {
     width: calc((100% / 3) - 20px);
     margin: 20px 10px 20px 10px;
     background-color: var(--back);
+    border-radius: 10px;
+    box-shadow: 4px 6px 8px darkgrey;;
 }
+/* #endregion cards */
